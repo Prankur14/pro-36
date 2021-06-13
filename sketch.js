@@ -58,6 +58,8 @@ function draw() {
    pop()
     }else{
       push();
+      fill("black");
+      textSize(18);
       text("Last fed: "+lastFed+ " AM", 250, 30)
       pop();
     }
